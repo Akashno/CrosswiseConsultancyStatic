@@ -11,9 +11,8 @@ $header.= "MIME-Version: 1.0\r\n";
 $header.= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 $header.= "X-Priority: 1\r\n";
 
-);
-
-	if(mail($to, $subject, $message,$header)) {
+$headers = implode("\r\n", $headers);
+	if(mail($to, $subject, $message,$headers)) {
 	    $message = "Your contact information is received successfully.";
 	    $type = "success";
 	}
