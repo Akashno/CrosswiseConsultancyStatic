@@ -11,9 +11,7 @@ if(!empty($_POST["send"])) {
 	    $message = "Your contact information is received successfully.";
 	    $type = "success";
 	}
-  else{
-    echo '<p>we are sorry email didnt go through</p>';
-  }
+
 }
-require_once "contact-view.php";
+
 ?>
