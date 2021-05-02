@@ -11,6 +11,9 @@ if(!empty($_POST["send"])) {
 	    $message = "Your contact information is received successfully.";
 	    $type = "success";
 	}
+  else{
+    echo "<p>error occured</p>";
+  }
 
 }
 
