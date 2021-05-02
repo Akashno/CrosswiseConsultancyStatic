@@ -773,7 +773,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .img-me {
-  width: 60%;
+  width: 45%;
+  border: 10px solid white;
   object-fit: contain;
 }
 .about .content h3 {
