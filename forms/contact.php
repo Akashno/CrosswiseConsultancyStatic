@@ -1,5 +1,5 @@
 <?php
-if(!empty($_POST["send"])) {
+
 	$name = $_POST["name"];
 	$email = $_POST["email"];
 	$subject = $_POST["subject"];
@@ -15,6 +15,5 @@ $header.= "X-Priority: 1\r\n";
 	    $message = "Your contact information is received successfully.";
 	    $type = "success";
 	}
-}
 
 ?>
